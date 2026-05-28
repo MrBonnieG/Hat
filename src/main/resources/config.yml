@@ -1,0 +1,13 @@
+messages:
+  config-reload: "&aConfig reloaded!"
+  no-permissions: "&cYou don't have permission!"
+  not-player: "&cOnly players can use this command!"
+  no-item: "&cYou must hold an item in your hand!"
+  wrong-material: "&cYou can't use this material!"
+  hat-successful: "&aYou placed the item on your head!"
+
+materialsWhitelistEnabled: false
+materialsWhitelist:
+  - GLASS
+  - DIAMOND_BLOCK
+  - WHITE_BANNER

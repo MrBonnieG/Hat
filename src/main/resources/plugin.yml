@@ -1,0 +1,16 @@
+name: Hat
+version: '1.0.0'
+main: org.mrbonnieg.hat.Hat
+api-version: '1.19'
+load: STARTUP
+authors: [ MrBonnieG ]
+description: Allows you to put any item on your head using the /hat command
+commands:
+  hat:
+    description: put item on your head
+    permission: hat.use
+permissions:
+  hat.use:
+    default: op
+  hat.reload:
+    default: op
